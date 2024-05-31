@@ -1,0 +1,45 @@
+button.table-header-button {
+  border: 1px solid #065ad8;
+  width: 167px;
+  height: 40px;
+  border-radius: 5px;
+  color: #065ad8;
+}
+
+div.select-status {
+  border-bottom: 1px solid #cccccc;
+}
+
+div.select-status ul li {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+div.select-status ul li.status-item {
+  position: relative;
+  color: #cccccc;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  width: 120px;
+}
+
+div.select-status ul li.status-item-active {
+  position: relative;
+  color: #232323;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 120px;
+}
+
+div.select-status ul li.status-item-active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #065ad8;
+}
